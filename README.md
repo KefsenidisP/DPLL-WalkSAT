@@ -25,3 +25,5 @@ So an example of such an input file is:
 -4 1 2
 -3 -1 -2
 ```
+
+Symbols are represented by a value from 1 to N, while literals are represented by a number from -N to N excluding 0. The `-` mark means that the symbol appears in the clause as a negative literal, while the absence of the same mark means that the symbol appears as a positive literal in the clause.

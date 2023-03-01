@@ -8,7 +8,7 @@ The main program is the bcsp-mod.c. The math libary is used so it needs to be co
 
 so that it can be linked into the binary.
 
-Note that the two algorithms are implemented in two seperate header files, included in the main program.
+> **Note**: that the two algorithms are implemented in two seperate header files, included in the main program.
 
 ## Usage
 For the compiled main program to run properly, 3 arguments must be provided via the command line. The syntax is as follows:

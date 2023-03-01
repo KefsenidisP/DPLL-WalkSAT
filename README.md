@@ -17,3 +17,9 @@ For the compiled main program to run properly, 3 arguments must be provided via 
 
 Where `<type-of-algorithm>` can either be `dpll` or `walk`. The input file must have a very specific format. In its first line, 3 numbers must be present seperated by a blank space character, named N, M, K accordingly, where M determines the number of clauses contained in the conjuctive normal form (CNF), K the number of literals in each clause and N determines the number of the problem's symbols. 
 
+So an example of such an input file is:
+
+`4 3 3
+-1 2 3
+-4 1 2
+-3 -1 -2`

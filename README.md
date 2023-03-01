@@ -19,7 +19,10 @@ Where `<type-of-algorithm>` can either be `dpll` or `walk`. The input file must 
 
 So an example of such an input file is:
 
-`4 3 3`
-`-1 2 3`
-`-4 1 2`
-`-3 -1 -2`
+`4 3 3
+
+-1 2 3
+
+-4 1 2
+
+-3 -1 -2`

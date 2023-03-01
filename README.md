@@ -8,3 +8,6 @@ The main program is the bcsp-mod.c. The math libary is used so it needs to be co
 
 so that it can be linked into the binary.
 
+Note that the two algorithms are implemented in two seperate header files, included in the main program.
+
+## Usage

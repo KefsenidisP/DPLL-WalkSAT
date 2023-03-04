@@ -41,3 +41,16 @@ An example of such a file, with **N** = 3 is the following:
 Which means that P1 (where Px is a symbol name) must be False, P2 True and P3 True, so that the CNF can return a truth value of True.
 
 ## Input File Generator
+You can compile, by simply using the following:
+
+`gcc input-generator -o <out-name>`
+
+Then in order to run properly, it needs 5 additional arguments: **N**, **M**, **K**, file name prefix and number of problems (files) to be created.
+
+The synntax is as follows:
+
+`./<out-name> <M> <N> <K> <number-of-problems> <file-prefix>`
+
+I have provided an example of such a file for the below input:
+
+`./<out-name> 10 12 10 1 in`

@@ -27,3 +27,17 @@ So an example of such an input file is:
 ```
 
 Symbols are represented by a value from 1 to **N**, while literals are represented by a number from **-N** to **N** excluding 0. The `-` mark means that the symbol appears in the clause as a negative literal, while the absence of the same mark means that the symbol appears as a positive literal in the clause.
+
+**Note**: The input file contains literals not symbols.
+
+The output file, will contain the symbol assignment, that is considered a solution to the SAT problem. It contains **N** numbers, seperated by blank space character. These numbers are 1 or -1, representing the boolean values of True and False accordingly. 
+
+An example of such a file, with **N** = 3 is the following:
+
+```
+-1 1 1
+```
+
+Which means that P1 (where Px is a symbol name) must be False, P2 True and P3 True, so that the CNF can return a truth value of True.
+
+## Input File Generator
